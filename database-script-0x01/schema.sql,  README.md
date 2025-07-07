@@ -92,6 +92,7 @@ CREATE TABLE IF NOT EXISTS messages (
     FOREIGN KEY (recipient_id) REFERENCES users(user_id)
 );
 
+## README.md
 # Database Schema (DDL) - Airbnb Clone
 
 This directory contains the SQL script `schema.sql` used to define the database schema for the Airbnb clone project.
