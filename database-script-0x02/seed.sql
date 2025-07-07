@@ -45,23 +45,4 @@ VALUES
 ('m1111111-mmmm-mmmm-mmmm-mmmmmmmmmmmm', '11111111-1111-1111-1111-111111111111', '22222222-2222-2222-2222-222222222222', 'Hi Brian, is the Nairobi apartment available next month?');
 
 
-## README.md
-# Seed SQL Script - Airbnb Clone
 
-This script populates the database with realistic test data for development and testing.
-
-## Entities Populated
-
-- Users (3 entries)
-- Properties (2 entries)
-- Bookings (2 entries)
-- Payments (1 entry)
-- Reviews (1 entry)
-- Messages (1 entry)
-
-## How to Use
-
-To populate your database after creating the tables, run:
-
-```bash
-mysql -u your_username -p your_database < seed.sql
